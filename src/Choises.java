@@ -12,16 +12,6 @@ public class Choises {
 
         if (choise == 1) {
             System.out.println("Rätt! Fortsätt");
-            System.out.println("Vad vill du göra?");
-            System.out.println("1. Gå till höger");
-            System.out.println("2. Gå till vänster");
-            System.out.println("3. Gå rakt fram");
-            choise = scanner.nextInt();
-            if(choise == 1) {
-                System.out.println("FEL VÄG");
-            } else if (choise == 2) {
-                System.out.println("Rätt! Fortsätt!!!");
-            }
         } else if (choise == 2) {
             System.out.println("Fel väg, GAME OVER!");
         } else if(choise == 3) {
