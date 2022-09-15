@@ -24,7 +24,7 @@ public class Main {
                     + (33 - numberOfStudents) + " stycken.");
         }
 
-        System.out.println("---- Nu är vi utanför if-satsen");
+        System.out.println("---- Nu   är vi utanför if-satsen");
 
     }
 }
