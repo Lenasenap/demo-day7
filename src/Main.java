@@ -13,15 +13,13 @@ public class Main {
             if (goodMood) {
                 System.out.println("Alla är på toppenhumör!");
             }
-        }
-
-        if (numberOfStudents > 33) {
+        } else if(numberOfStudents > 33) {
             System.out.println("Någon i klassrummet verkar ha hamnat fel");
-        }
-
-        if (numberOfStudents < 33) {
+        } else if(numberOfStudents < 33) {
             System.out.println("Det fattas några studerande idag, nämligen: "
                     + (33 - numberOfStudents) + " stycken.");
+        } else {
+            System.out.println("Något annat hände nu.");
         }
 
         System.out.println("---- Nu   är vi utanför if-satsen");
