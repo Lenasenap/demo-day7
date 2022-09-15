@@ -3,13 +3,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        boolean goodMood = false;
 
         System.out.println("Hur många studerande är här idag?");
         int numberOfStudents = scanner.nextInt();
 
         if (numberOfStudents == 33) {
-            // Kommer bara köras om det inom parentesen är true
             System.out.println("Alla verkar vara här idag");
+            if (goodMood) {
+                System.out.println("Alla är på toppenhumör!");
+            }
         }
 
         if (numberOfStudents > 33) {
